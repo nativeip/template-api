@@ -1,7 +1,6 @@
 require("dotenv/config");
 import app from "./app";
 
-app.listen(process.env.DB_PORT, () => {
-  process.stdout.write("\x1Bc");
-  console.log(`🚀 Native Dialer is running on port ${process.env.DB_PORT}!`);
+app.listen(3333, () => {
+  console.log(`🚀 Native Dialer is running on port 3333!`);
 });

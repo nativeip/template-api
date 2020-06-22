@@ -11,6 +11,7 @@ class App {
     this.app = express();
 
     this.midllewares();
+    this.routes();
     this.exceptionHandler();
   }
 
